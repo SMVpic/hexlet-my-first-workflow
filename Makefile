@@ -12,9 +12,6 @@ start:
 test:
 	npm test
 
-init:
-	npm init @eslint/config
-
 lint:
 	npx eslint .
 
