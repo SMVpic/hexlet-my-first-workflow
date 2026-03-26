@@ -16,7 +16,7 @@ jobs:
       - run: make test
   build-lint:
     if: ${{ always() }}
-    needs: build-backend
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - run: make lint
